@@ -3,8 +3,8 @@ import numpy as np
 import sys
 import matplotlib.pyplot as plt
 try:
-	int1 = int(input("Enter a number: "))
-	int2 = int(input("Enter another number: "))
+	int1 = float(input("Enter a number: "))
+	int2 = float(input("Enter another number: "))
 	stepsize = float(input("Enter the step size: "))
 	print(f"Drawing the sinewave of all numbers between {int1} and {int2}")
 	plt.style.use("ggplot")
