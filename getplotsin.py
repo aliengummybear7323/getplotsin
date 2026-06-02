@@ -19,7 +19,7 @@ try:
 	plt.plot(x, y)
 	plt.show()
 except KeyboardInterrupt:
-	print("\nGoodbye..."))
+	print("\nGoodbye...")
 	sys.exit(0)
 except ValueError:
 	print("Sorry, that is invalid!")
