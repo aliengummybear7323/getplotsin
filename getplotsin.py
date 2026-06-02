@@ -20,3 +20,5 @@ try:
 	plt.show()
 except KeyboardInterrupt:
 	sys.exit(0)
+except ValueError:
+	print("Sorry, that is invalid!")
