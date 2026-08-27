@@ -19,7 +19,8 @@ try:
         sys.exit(0)
 
     y = np.sin(x)
-
+    plt.plot(x, y)
+    plt.show()
 except KeyboardInterrupt:
     print("\nGoodbye...")
     sys.exit(0)
@@ -27,6 +28,5 @@ except ValueError:
     print("Sorry, that is invalid!")
     sys.exit(0)
 
-plt.plot(x, y)
-plt.show()
+
 
