@@ -1,3 +1,7 @@
+.venv
+commit.sh
+pyproject.toml
+pdm.lock
 .py[cod]
 __pycache__/
 .mypy_cache/
